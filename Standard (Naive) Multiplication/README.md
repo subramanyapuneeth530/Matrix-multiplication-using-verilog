@@ -1,0 +1,3 @@
+*standard (Naive) Multiplication*
+
+The standard (naive) matrix multiplication method involves directly applying the definition of matrix multiplication. For each element in the resulting matrix, you compute the dot product of the corresponding row from the first matrix and the column from the second matrix. This method is straightforward and easy to understand, making it ideal for implementing fixed-size matrix operations like 2×2 or 3×3 matrices. While it may not be the most efficient for large matrices, it is perfectly suitable for small matrices in hardware design and is often used as the base model for comparison.
