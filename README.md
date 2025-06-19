@@ -3,18 +3,22 @@
 
 ## Overview
 
-This project implements a **2×2 matrix multiplication** module using Verilog. It takes two 2×2 matrices as input and produces the resulting 2×2 matrix after multiplication.
+This project implements **matrix multiplication** module using Verilog. It takes various approaches to solve matrix multiplication with each of it's pro's and con's explained. 
 
 ## What is Matrix Multiplication?
 
-Matrix multiplication is a binary operation that takes a pair of matrices and produces another matrix. For two matrices **A** and **B** to be multiplied, the number of columns in **A** must be equal to the number of rows in **B**.
+Matrix multiplication is a fundamental operation in linear algebra that combines two matrices to produce a third matrix. Unlike simple multiplication of individual numbers, matrix multiplication involves performing dot products between rows of the first matrix and columns of the second matrix. It’s widely used in areas like computer graphics, physics simulations, machine learning, and control systems.
 
-For 2×2 matrices:
+For matrix multiplication to be valid, the number of columns in the first matrix must be equal to the number of rows in the second matrix. For example, if the first matrix (Matrix A) is of size 2×2 and the second matrix (Matrix B) is also 2×2, then their product can be computed. The resulting matrix (Matrix C) will also be of size 2×2.
 
-Let
+Let us consider two 2×2 matrices:
 
 A 
 
 ```math
-A=\begin{bmatrix}X \ A \\ B \ Y\end{bmatrix}
+A=\begin{bmatrix}A00 \ A01 \\ A10 \ A11\end{bmatrix}
+```
+and 
+```math
+B=\begin{bmatrix}B00 \ B01 \\ B10 \ B11\end{bmatrix}
 ```
