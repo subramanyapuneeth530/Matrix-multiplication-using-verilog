@@ -16,5 +16,5 @@ Let
 A 
 
 ```math
-A=\begin{bmatrix}X \ A \\\ B \ Y\end{bmatrix}
+A=\begin{bmatrix}X \ A \\ B \ Y\end{bmatrix}
 ```
