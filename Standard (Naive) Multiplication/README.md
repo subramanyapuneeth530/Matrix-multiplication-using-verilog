@@ -1,3 +1,8 @@
-*standard (Naive) Multiplication*
-
+# Standard (Naive) Multiplication
 The standard (naive) matrix multiplication method involves directly applying the definition of matrix multiplication. For each element in the resulting matrix, you compute the dot product of the corresponding row from the first matrix and the column from the second matrix. This method is straightforward and easy to understand, making it ideal for implementing fixed-size matrix operations like 2×2 or 3×3 matrices. While it may not be the most efficient for large matrices, it is perfectly suitable for small matrices in hardware design and is often used as the base model for comparison.
+
+# Nested Loop Implementation 
+In the nested loop approach, matrix multiplication is implemented using for loops that iterate over the rows and columns of the matrices. Typically, three nested loops are used: the outer two loop through the result matrix elements, and the innermost loop accumulates the product of corresponding elements. This method is scalable for NxN matrix sizes and is a common choice in software, but in Verilog, it is used carefully in combination with clocked logic and finite state machines (FSM) to avoid synthesis issues. The nested loop version is well-suited for sequential operation in resource-constrained environments.
+
+# Standard Equation Implementation 
+In the standard equation method, each element of the result matrix is computed explicitly using a direct mathematical expression. This is practical and highly efficient when dealing with small fixed-size matrices like 2×2, where all indices are known in advance. For instance, the element C00 is assigned as C00 = A00 * B00 + A01 * B10. This method allows for a fully combinational circuit and can be executed in parallel, leading to faster performance. It is the preferred approach for implementing small matrix multiplication in Verilog due to its simplicity and parallelism.
