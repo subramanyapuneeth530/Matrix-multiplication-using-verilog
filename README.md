@@ -13,3 +13,5 @@ For 2×2 matrices:
 
 Let
 
+A = | A00 A01 | B = | B00 B01 |
+| A10 A11 | | B10 B11 |
