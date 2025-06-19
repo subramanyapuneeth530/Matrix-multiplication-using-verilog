@@ -13,12 +13,8 @@ For 2×2 matrices:
 
 Let
 
-A = | A00  A01 |
-    | A10  A11 |
-
-$\begin{bmatrix}A1 &A2 & A3\\A4 & A5 & A6 \end{bmatrix}$
-For a vector $\vec{v} = \begin{bmatrix} x \\ y \end{bmatrix}$,  the transpose is $\vec{v}^T = \begin{bmatrix} x & y \end{bmatrix}$.
+A 
 
 ```math
-\begin{bmatrix}X\\Y\end{bmatrix}
+A=\begin{bmatrix}X\\Y\end{bmatrix}
 ```
